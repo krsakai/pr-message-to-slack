@@ -65,7 +65,7 @@ const main = async () => {
 
     if (typeof title === "string") {
       text = text.concat(
-        `\n*Review requested: * <${html_url}|${title}${number_with_hash}>`
+        `\nレビュー担当者に設定されました:  <${html_url}|${title}${number_with_hash}>`
       );
     } else {
       text = text.concat(`\n*Review requested: * ${html_url}`);
